@@ -24,5 +24,5 @@ steps:
       -Dcloud.token=$(TALEND_CLOUD_TOKEN)
       -Dcloud.publisher.environment="DEV"
       -Dcloud.publisher.workspace="ORDER"
-      -Dgeneration.type=local
+      -DaltDeploymentRepository=talend-repo::default::https://app.us.cloud.talend.com/tmc/management/artifacts/
     goals: "clean deploy"
