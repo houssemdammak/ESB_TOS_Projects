@@ -1,0 +1,43 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/C:/Users/MSI/Downloads/TOS_ESB-20211109_1610-V8.0.1/Studio/plugins/org.eclipse.m2e.maven.runtime.slf4j.simple_1.18.0.20210402-1458/jars/slf4j-simple-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [file:/C:/Users/MSI/Downloads/TOS_ESB-20211109_1610-V8.0.1/Studio/configuration/org.eclipse.osgi/446/0/.cp/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------< org.example.web_services_projects.service:ws_test >----------
+[INFO] Building WEB_SERVICES_PROJECTS ws_test-0.1.0 (0.1,Jobs) Bundle 0.1.0
+[INFO] -------------------------------[ bundle ]-------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ ws_test ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.1:compile (default-compile) @ ws_test ---
+[INFO] Not compiling main sources
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ ws_test ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.1:testCompile (default-testCompile) @ ws_test ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.20:test (default-test) @ ws_test ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-bundle-plugin:5.1.1:bundle (default-bundle) @ ws_test ---
+[WARNING] Bundle org.example.web_services_projects.service:ws_test:bundle:0.1.0 : Invalid package name: '@BundleConfigExportPackage@' in Export-Package
+[WARNING] Bundle org.example.web_services_projects.service:ws_test:bundle:0.1.0 : Invalid package name: '@BundleConfigImportPackage@' in Import-Package
+[INFO] 
+[INFO] --- maven-assembly-plugin:3.0.0:single (default) @ ws_test ---
+[INFO] Reading assembly descriptor: C:\Users\MSI\Downloads\TOS_ESB-20211109_1610-V8.0.1\Studio\workspace\WEB_SERVICES_PROJECTS\poms\jobs\process\RestfulServices\ws_test_0.1/src/main/assemblies/assembly.xml
+[WARNING] The following patterns were never triggered in this artifact inclusion filter:
+o  'org.example.web_services_projects.service:ws_test:jar:0.1.0'
+
+[INFO] Building jar: C:\Users\MSI\Downloads\TOS_ESB-20211109_1610-V8.0.1\Studio\workspace\WEB_SERVICES_PROJECTS\poms\jobs\process\RestfulServices\ws_test_0.1\target\ws_test-bundle-0.1.0.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.238 s
+[INFO] Finished at: 2025-04-03T15:34:05+01:00
+[INFO] ------------------------------------------------------------------------
