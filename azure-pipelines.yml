@@ -20,7 +20,6 @@ steps:
   inputs:
     mavenPomFile: "poms/pom.xml"
     options: >
-      -Dlicense.path=$(LICENSE_PATH)
       -Dservice.url=$(TALEND_CLOUD_URL)
       -Dcloud.token=$(TALEND_CLOUD_TOKEN)
       -Dcloud.publisher.environment="DEV"
